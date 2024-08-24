@@ -22,7 +22,10 @@ After following the official tutorial to configure the environment and download 
 python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2seq_im_mask --dout exp/model:{model},name:pm_and_subgoals_01 --splits data/splits/oct21.json --gpu --batch 8 --pm_aux_loss_wt 0.1 --subgoal_aux_loss_wt 0.1
 ```
 
-We also use Contrastive Learning(CL) strategy to improve the performance of our model. The code of CL is in:[**CL Code**](https://drive.google.com/file/d/1GaZPsHDj_M1BFShF-XFuXhTPVslyp17n/view?usp=sharing)
+We also provide the code to retrain our SS-VLA model using Contrastive Learning(CL). You can access the code through this link: [**CL Code**](https://drive.google.com/file/d/1GaZPsHDj_M1BFShF-XFuXhTPVslyp17n/view?usp=sharing). If you are interested in this part, simply download the code from the link and replace the corresponding files in the original repository with the new code.
+
+
+
 
 
 ## 3.RESULTS
