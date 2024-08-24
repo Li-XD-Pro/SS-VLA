@@ -22,6 +22,9 @@ After following the official tutorial to configure the environment and download 
 python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2seq_im_mask --dout exp/model:{model},name:pm_and_subgoals_01 --splits data/splits/oct21.json --gpu --batch 8 --pm_aux_loss_wt 0.1 --subgoal_aux_loss_wt 0.1
 ```
 
+We also use Contrastive Learning(CL) strategy to improve the performance of our model. The code of CL is in:[**CL Code**](https://drive.google.com/file/d/1GaZPsHDj_M1BFShF-XFuXhTPVslyp17n/view?usp=sharing)
+
+
 ## 3.RESULTS
 
 In our paper, we first use LLMs to break down the task instructions into subtasks, as illustrated in the following picture.
